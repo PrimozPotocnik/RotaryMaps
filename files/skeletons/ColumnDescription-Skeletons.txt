@@ -1,0 +1,5 @@
+This is a descrition of the names of the columns in the excel spreadsheets SkeletonsData-3000.xlsx and PolyhedralSkeletonsData-3000.xlsx that contain information about all the graphs that appear as skeletons of rotary maps on at most 3000 edges. Each row in the spreadsheet of chiral maps indicates a one graph.
+
+ID: This is the name of the map graph.
+
+More information will follow...
