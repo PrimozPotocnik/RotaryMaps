@@ -37,7 +37,7 @@ def CreateHtml(path: str):
   newFile = ".".join(path.split(".")[:-1])+".html";
   # print(f"Creating for {newFile}. Content length: {len(rendered)}")
   with open(newFile, "wt") as fout: 
-    fout.write(f"""<!DOCTYPE html><html class="gist"><head><link rel="stylesheet" href="~/github-css.css"></head><body class="markdown-body">{rendered}</body></html>""")
+    fout.write(f"""<!DOCTYPE html><html class="gist"><head><link rel="stylesheet" href="~/RotaryMaps/github-css.css"></head><body class="markdown-body">{rendered}</body></html>""")
 
 
 def Walk(path: str):
