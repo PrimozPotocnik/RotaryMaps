@@ -259,7 +259,7 @@
 }
 
 .gist .markdown-body table tr:nth-child(2n) {
-  background-color: #f6f8fa
+  background-color: #e8e8e8
 }
 
 .gist .markdown-body table img {
@@ -379,7 +379,8 @@
   padding: .2em .4em;
   margin: 0;
   font-size: 85%;
-  background-color: #f6f8fa;
+  color: orange;
+  background-color: #e8e8e8;
   border-radius: 3px
 }
 
@@ -421,7 +422,7 @@
   overflow: auto;
   font-size: 85%;
   line-height: 1.45;
-  background-color: #f6f8fa;
+  background-color: #e8e8e8;
   border-radius: 3px
 }
 
@@ -434,7 +435,7 @@
   overflow: visible;
   line-height: inherit;
   word-wrap: normal;
-  background-color: #f6f8fa;
+  background-color: #e8e8e8;
   border: 0
 }
 
@@ -461,7 +462,7 @@
 
 .gist .markdown-body .csv-data th {
   font-weight: 600;
-  background: #f6f8fa;
+  background: #e8e8e8;
   border-top: 0
 }
 
@@ -567,7 +568,7 @@
 }
 
 .gist .pl-mi2 {
-  color: #f6f8fa;
+  color: #e8e8e8;
   background-color: #005cc5
 }
 
@@ -668,7 +669,7 @@
 }
 
 .gist .TagsearchPopover-list .TagsearchPopover-list-item:hover {
-  background-color: #f6f8fa
+  background-color: #e8e8e8
 }
 
 .gist .TagsearchPopover-list .TagsearchPopover-list-item .TagsearchPopover-item:hover {
@@ -1189,7 +1190,7 @@
 }
 
 .gist .file-diff-split .blob-code+.blob-num {
-  border-left: 1px solid #f6f8fa
+  border-left: 1px solid #e8e8e8
 }
 
 .gist .file-diff-split .blob-code-inner {
