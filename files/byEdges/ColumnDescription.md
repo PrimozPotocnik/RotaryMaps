@@ -16,7 +16,7 @@ p,q,r: This is a triple of positive integers representing the length of each fac
 
 **``v-mult``**: An integer representing the number of edges with which two adjacent vertices are connected. If the underlying graph is simple, then this is 1, otherwise it is >1. This parameter is often called "vertex multiplicity" of the map.
 
-**``f-mult`**: The vertex multiplicity of the dual of the map. That is, mF is the number of edges that two adjacent faces share.
+**``f-mult``**: The vertex multiplicity of the dual of the map. That is, mF is the number of edges that two adjacent faces share.
 
 **``self``**: A string indicating which Wilson operators the map is invariant under. There are 5 non-trivial Wilson operators: Du (duality), Pe (Petrie duality), Tr (the Dual of the Petrie, sometimes called a "triality"), iT (the Petrie of the Dual, which is equal to the inverse of Tr, also sometimes called a "triality"), and Op (the Dual of the Petrie of the Dual, sometimes called "the opposite", and equal to Petrie of the Dual of the Petrie). These 5 operators, together with the identity, form a dihedral group of order 6 acting on the set of fully regular maps (orientable and non-orientable). In this column, a string of the form X+Y+Z+...
 is given, where X,Y,Z ... are members of the set {Du, Pe, Op, Tr, iTs}. If X appears in this string, this means the map is invariant under the operator with the name X. For example, if the string Tr+iTr appears in this column, this means that the map is invariant under both trialities, Tr and iTr, but not under any of the other three non-trivial Wilson operators. If "none" appear in this columns, then the map is not invatiant under any of the five non-trivial Wilson operators.
