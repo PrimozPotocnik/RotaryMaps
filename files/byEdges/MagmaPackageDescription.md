@@ -179,4 +179,4 @@ This is a short description of the Magma code that imports the database of all r
 
   Requires also: Skeletons-3000.txt, SPSkeletons-3000.txt
 
-  Builds two double sequences, Sk and PlhSk. The first contains the simplifications of all the graphs on up to 3000 edges that embed as rotary maps. The second contains all the graphs on up to 3000 edges that embed as polyhedral rotary maps (intersection of two faces is either empty, a vertex or an edge). Sk[n,k] returns the $k$-th graph on $n$ vertices. Similarly for the PlSk[n,k].
+  Builds two double sequences, Sk and PlhSk. The first contains the simplifications of all the graphs on up to 3000 edges that embed as rotary maps. The second contains all the graphs on up to 3000 edges that embed as polyhedral rotary maps (intersection of two faces is either empty, a vertex or an edge). Sk[n,k] returns the $k$-th graph on $n$ vertices. Similarly for the PlhSk[n,k].
