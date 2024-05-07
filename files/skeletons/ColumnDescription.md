@@ -15,7 +15,7 @@ This is a descrition of the names of the columns in the excel spreadsheets Skele
 **``bip``**: "b" if the graph is bipartite and "nb" if it is not.
 
 **``O-genus``**: A sequence of integers (separated by a colon) representing the genera of the regular orientable maps with this skeleton. 
-	
+
 **``N-genus``**: A sequence of integers (separated by a colon) representing the genera of the regular non-orientable maps with this skeleton. 
 
 **``C-genus``**: A sequence of integers (separated by a colon) representing the genera of the chiral maps with this skeleton. 
