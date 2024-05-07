@@ -5,18 +5,20 @@ This is a description of the names of the columns in the excel spreadsheets Regu
 ## RegularMaps3kEData.xlsx
 
 **``ID``**: This is the name of the map. The name has the form RM[m;k] where m is the number of edges and k is the index of the map among all maps on m edges.
-genus: The genus of the map (either orientable or non-orientable).
+
+**``genus``**: The genus of the map (either orientable or non-orientable).
 
 **``O/N``**: "O" if the map is orientable, and "N" if it is non-orientable.
-p,q,r: This is a triple of positive integers representing the length of each face, the valence of the underlying graph and the length of the Petrie walk in the map.
+
+**``p,q,r``** This is a triple of positive integers representing the length of each face, the valence of the underlying graph and the length of the Petrie walk in the map.
 
 **``solv``**: "S" if the automorphism group of the map is solvable, and "N" if it is not.
 
 **``|V|``,``|E|``,``|F|``**: the number of vertices, edges and faces of the maps.
 
-**``v-mult``**: An integer representing the number of edges with which two adjacent vertices are connected. If the underlying graph is simple, then this is 1, otherwise it is >1. This parameter is often called "vertex multiplicity" of the map.
+**``v-mult``**: An integer representing the number of edges with which two adjacent vertices are connected. If the underlying graph is simple, then this is 1, otherwise it is >1. This parameter is often called the "vertex multiplicity" of the map.
 
-**``f-mult``**: The vertex multiplicity of the dual of the map. That is, mF is the number of edges that two adjacent faces share.
+**``f-mult``**: The vertex multiplicity of the dual of the map. That is, the number of edges that two adjacent faces share.
 
 **``self``**: A string indicating which Wilson operators the map is invariant under. There are 5 non-trivial Wilson operators: Du (duality), Pe (Petrie duality), Tr (the Dual of the Petrie, sometimes called a "triality"), iT (the Petrie of the Dual, which is equal to the inverse of Tr, also sometimes called a "triality"), and Op (the Dual of the Petrie of the Dual, sometimes called "the opposite", and equal to Petrie of the Dual of the Petrie). These 5 operators, together with the identity, form a dihedral group of order 6 acting on the set of fully regular maps (orientable and non-orientable). In this column, a string of the form X+Y+Z+...
 is given, where X,Y,Z ... are members of the set {Du, Pe, Op, Tr, iTs}. If X appears in this string, this means the map is invariant under the operator with the name X. For example, if the string Tr+iTr appears in this column, this means that the map is invariant under both trialities, Tr and iTr, but not under any of the other three non-trivial Wilson operators. If "none" appear in this columns, then the map is not invatiant under any of the five non-trivial Wilson operators.
@@ -37,8 +39,30 @@ is given, where X,Y,Z ... are members of the set {Du, Pe, Op, Tr, iTs}. If X app
 
 ## ChiralMaps6kEData.xlsx
 
-Similar as above (more information will follow).
+**``ID``**: This is the name of the map. The name has the form CM[m;k] where m is the number of edges and k is the index of the map among all maps on m edges.
+
+**``genus``**: The genus of the map.
+
+**``p,q,r``**: This is a triple of positive integers representing the length of each face, the valence of the underlying graph and the length of the Petrie walk in the map.
+
+**``solv``**: "S" if the automorphism group of the map is solvable, and "N" if it is not.
+
+**``|V|``,``|E|``,``|F|``**: the number of vertices, edges and faces of the maps.
+
+**``v-mult``**: An integer representing the number of edges with which two adjacent vertices are connected. If the underlying graph is simple, then this is 1, otherwise it is >1. This parameter is often called "vertex multiplicity" of the map.
+
+**``f-mult``**: The vertex multiplicity of the dual of the map. That is, the number of edges that two adjacent faces share.
+
+**``self``**: A string indicating which of the operators Du, Mir and DuMir the map is invariant under, where Du represents the duality, Mir represents the mirror symmetry (corresponding to keeping the embedding of the skeleton but reversing the orientation of the surface), and where DuMir represents the product of the two. Together with the trivial transformation, these three operators form the Klein 4-group acting on the set of orientable maps. Note that a map on an orientable surface is invariant under Mir if and only if it is fully regular (reflexible). In other words, a chiral map is never invariant under Mir. Hence, for a chiral map only the following three possibilities occur: it can be invariant under none of these three standard operators (then "none" appears in the corresponding field), or under Du but not under Mir and DuMir (then the field contains the string "Du"), or under DuMir (and then "DuMir" appears in the ccorresponding filed).
+
+**``Du``,``Mir``,``DuMir``**: The names of the corresponding Wilson transforms of the map. If the map is invariant under all the Wilson transformations, then the name of the map itself will appear in all five columns.
+
+**``|U(q):ExpGrp|``**: Same as in the file RegularMaps3kEData.xlsx. Note that since the mirror operator corresponds to the hole operator $H_{j}$ with $j=-1$, the index of ExpGrp(M) in U(q) is at least 2.
+
+**``Hj``**: Same as in the file RegularMaps3kEData.xlsx.
+
+**``plt``,``plh``,``Sk``,``PlhSk``**: Same as in the file RegularMaps3kEData.xlsx.
 
 ## LargeORMdata.xlsx
 
-Similar as above (more information will follow).
+Same as in the file RegularMaps3kEData.xlsx, except that only the colums ID, genus, p, q, r, solv, |V|, |F|, v-mult, and f-mult, are given
