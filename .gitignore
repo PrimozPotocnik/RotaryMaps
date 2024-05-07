@@ -1,2 +1,4 @@
 # List all files git should ignore
 .DS_Store
+# Python virtual inviroment
+venv/
