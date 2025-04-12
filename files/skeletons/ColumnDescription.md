@@ -22,6 +22,6 @@ This is a descrition of the names of the columns in the excel spreadsheets Skele
 
 **``OM``**: The names of the regular orientable maps with this skeleton.
 
-**``ON``**: The names of the regular non-orientable maps with this skeleton.
+**``NM``**: The names of the regular non-orientable maps with this skeleton.
 
 **``CM``**: The names of the chiral maps with this skeleton.
