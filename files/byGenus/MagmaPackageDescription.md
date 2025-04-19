@@ -181,8 +181,7 @@ This is a short description of the magma code that imports the database of all r
 
   * ``WilsonInvarianceOfChiralMap(ID)``
 
-     Returns one of the strings: Four (invariant under none), SD, MSD.
-     depending on which "Wilson operations" it is invariant under.
+     Returns one of the strings: I (invariant only under identity), I+D (invariant under I and Dual), I+MD (invariant under Mirror Dual).
 
   * ``SizeOfHoleClassOfChiralMap(ID)``
 
